@@ -1,0 +1,42 @@
+﻿@model webPorjectCS.Models.Product
+@using webPorjectCS.Models
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UpdateAmount</title>
+</head>
+
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+<body>
+    <div> 
+     @using (Html.BeginForm("UpdateAmount", "Product", FormMethod.Post))
+     {<i>Enter Serial Number</i><div style="color:red">@Html.TextBoxFor(m => m.SN) )</div>
+          <i>Enter new amount:</i><div style="color:red"> @Html.TextBoxFor(m => m.Amount)</div>
+            
+          <br /><br />
+          <a href="/Product/UpdateAmount"> <button>Update Amount</button></a>
+
+     }
+
+        <br /><br />
+        <form action="Menu" method="post">
+            <a href="Product/Menu"> <button>Go back</button></a>
+        </form>
+
+        @TempData["good"]
+        <br />
+        @TempData["bad"]
+        <br />
+
+    </div>
+</body>
+</html>

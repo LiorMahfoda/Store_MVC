@@ -1,0 +1,51 @@
+﻿@model webPorjectCS.ModelView.OrderViewModel
+@using webPorjectCS.Models;
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Orders</title>
+</head>
+
+<body>
+    <div> 
+        <span style="color:blue">*******Oreders list*********: : </span>
+        <br />
+        <table>
+            <tr>
+                <td>Product Name:</td>
+                <td>Order Amount :</td>
+                <td>Buyer Name:</td>
+                <td>Date Of Order:</td>
+
+            </tr>
+                 @foreach (Order obj in Model.Orders)
+                 {
+                            <tr>
+                                <td>@obj.ProductName</td>
+                                <td>@obj.OrderAmount</td>
+                                <td>@obj.BuyerName</td>
+                                <td>@obj.DateOfOrder</td>
+
+                            </tr>
+                 }
+
+        </table>
+
+        <br /><br />
+        
+        <form action="Menu" method="post">
+            <a href="Product/Menu"> <button>go back</button></a>
+        </form> 
+
+
+
+    </div>
+</body>
+</html>

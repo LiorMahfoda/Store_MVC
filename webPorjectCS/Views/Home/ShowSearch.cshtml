@@ -1,0 +1,64 @@
+﻿@model webPorjectCS.ModelView.ProductViewModel
+
+@using webPorjectCS.Models;
+@{
+
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Show Search</title>
+
+</head>
+<body>
+    <div>
+            <form action="computerHome" method="post">
+                <a href="/Home/computerHome"></a> <button>Go Back</button>
+                <br /><br />
+            </form>
+
+            <form action="ShowSearch" method="post">
+
+            Enter Product Name<input id="Text1" name="ProductName" type="text" />
+            <br /><br />
+
+            Enter The Lowest Price<input id="Text2" name="LowPrice" type="number" required/>
+            <br /><br />
+
+            Enter The Highest Price<input id="Text3" name="HighPrice" type="number" required/>
+            <br /><br />
+
+            <input id="Submit1" type="submit" value="Search" ng-click="text1" />
+
+            <br /><br />
+
+            </form>
+
+        <table>
+            <tr>
+                <td>Product Name:</td>
+                <td>Amount:</td>
+                <td>Serial Number:</td>
+                <td>Price:</td>
+
+            </tr>
+            @foreach (Product obj in Model.products)
+
+            {
+                <tr>
+                    <td>@obj.ProductName</td>
+                    <td>@obj.Amount</td>
+                    <td>@obj.SN</td>
+                    <td>@obj.Price</td>
+                </tr>
+            }
+
+        </table>
+
+        </div>
+    </body>
+</html>

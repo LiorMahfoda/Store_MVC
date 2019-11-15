@@ -1,0 +1,50 @@
+﻿@model webPorjectCS.Models.Product
+@using webPorjectCS.Models;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ManagerMenu</title>
+
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+
+</head>
+
+<body>
+    <div> 
+        <form action="Prod" method="post">
+            <a href="/Product/Prod"> <button>Add Product</button></a>
+            <br /><br />
+        </form>
+       @*<form action="Orders" method="post">*@ 
+            <a href="/Product/Orders"><button>Show Orders</button></a> 
+            <br /><br />
+        </form>
+  
+            <a href="/Product/ShowStoc"><button>Show Stock</button></a>
+            <br /><br />
+        
+        
+            <a href="/Product/redirectDel"> <button>Delete Product</button></a>
+            <br /><br />
+
+            <a href="/Product/UpdateAmount"> <button>Update Amount Of Products</button></a>
+            <br /><br />
+       
+            <a href="/Home/computerHome"> <button style="color:blue">Logout: Go to home page</button></a>
+            <br />
+            @TempData["good"]
+            <br />
+            @TempData["error"]
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿@model webPorjectCS.Models.Manager
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Manager Login</title>
+</head>
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+
+<body>
+    <div> 
+        @using (Html.BeginForm("ManagerMenu", "Product", FormMethod.Post))
+        { 
+            <i>Please enter Manager Username: </i><div style="color:red"> @Html.TextBoxFor(m => m.UserName) @Html.ValidationMessageFor(x => x.UserName)</div>
+            <br/>
+            <i>Please enter Manager Password  </i><div style="color:red">@Html.PasswordFor(m => m.Password) @Html.ValidationMessageFor(x => x.Password)</div>
+    <br />
+         
+    <a href="/Product/AddProduct"> <button>Go To Manager Menu</button></a>
+
+    
+    <br />
+      @TempData["good"]
+     <br />
+      @TempData["error"]
+
+        }
+</div>
+</body>
+</html>

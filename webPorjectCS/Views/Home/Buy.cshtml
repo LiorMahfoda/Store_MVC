@@ -1,0 +1,78 @@
+﻿@model webPorjectCS.ModelView.OrderViewModel
+    @using webPorjectCS.Models
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Buy</title>
+</head>
+<body>
+    <div> 
+
+        <span style="color:blue">buy menu: </span>
+        <br/>
+@using (Html.BeginForm("BuyProd", "Product", FormMethod.Post))
+{
+
+    <i>enter Product Name: </i><div style="color:red"> @Html.TextBoxFor(m => m.Orders) @Html.ValidationMessageFor(x => x.ProductName)</div>
+
+            <i>enter buyerName  </i><div style="color:red">@Html.TextBoxFor(m => m.Price) @Html.ValidationMessageFor(x => x.Price)</div>
+
+                <i>enter serial Number  </i><div style="color:red">@Html.TextBoxFor(m => m.SN) @Html.ValidationMessageFor(x => x.SN)</div>
+
+                <i>enter Amount  </i><div style="color:red">@Html.TextBoxFor(m => m.Amount) @Html.ValidationMessageFor(x => x.Amount)</div>
+
+
+
+
+                <a href="/Home/BuyProd"> <button>buy</button></a>
+
+        <br />
+        <table>
+            <tr>
+                <td>Product Name:</td>
+                <td>Amount:</td>
+                <td>Sirial Number:</td>
+                <td>Price:</td>
+
+            </tr>
+            @foreach (Product obj in Model.products)
+
+            {
+                <tr>
+                    <td>@obj.ProductName</td>
+                    <td>@obj.Amount</td>
+                    <td>@obj.SN</td>
+                    <td>@obj.Price</td>
+
+                    <td><input id="Submit1" name="buy" type="submit" value="buy" ng-click="text1," /></td>  {
+                    <td>
+                        Enter First Name<input id="Text1" type="text" />
+                    </td>
+                    <td>
+                        Enter Last Name<input id="Text2" type="text" />
+                    </td>
+                    <td><input id="Submit1" type="submit" value="APPROVE" b /> </td>  }
+
+
+                </tr>
+
+
+            }
+
+
+        </table>
+
+        <form action="ManagerMenu" method="post">
+            <a href="/Product/ManagerMenu"> <button>Go Back</button></a>
+
+        </form> 
+    </div>
+</body>
+</html>

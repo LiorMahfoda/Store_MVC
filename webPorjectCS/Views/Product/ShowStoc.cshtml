@@ -1,0 +1,67 @@
+﻿@model webPorjectCS.ModelView.ProductViewModel
+@using webPorjectCS.Models
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View</title>
+
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+
+</head>
+
+<body>
+    <div>
+
+        <span style="color:blue">The Inventory: </span>
+        <br /><br />
+
+        <div id="status "></div>
+
+        <table id="productTable">
+            <tr>
+                <td>Product Name:</td>
+                <td>Amount:</td>
+                <td>Serial Number:</td>
+                <td>Price:</td>
+            </tr>
+        </table>
+
+        <script language="javascript">
+
+    $("#status").text("loading......");
+    $.get("GetProductsByJson", null, BindData);
+
+    function BindData(Products) {
+        var tbl = $("#productTable");
+        for (k = 0; k < Products.length ; k++) {
+            var newRow = "<tr>" +
+                "<td>" + Products[k].ProductName + "</td>" +
+                "<td>" + Products[k].Amount + "</td>" +
+                "<td>" + Products[k].SN + "</td>" +
+                "<td>" + Products[k].Price + "</td>" +
+                "</td>" +
+                "</tr>"
+            tbl.append(newRow)
+        }
+
+        $("#status").text("")
+    }
+        </script>
+
+        <br /><br />
+        <form action="Menu" method="post">
+            <a href="Product/Menu"> <button>Go back</button></a>
+        </form> 
+    
+      </div>
+
+</body>
+</html>

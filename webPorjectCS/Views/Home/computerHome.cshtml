@@ -1,0 +1,69 @@
+﻿@model webPorjectCS.ModelView.ProductViewModel
+@using  webPorjectCS.Models;
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>computerHome</title>
+
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+
+</head>
+
+<body>
+    <div>
+        
+        <span style="color:blue">*******COMPUTER STORE*********: </span>
+        <br /><br />
+        <a href="/Manager/ManagerLogin"> <button>Manager Login</button></a>
+        <br /><br />
+        <a href="/Home/Search"> <button>Search products</button></a>
+        <br /><br />
+        
+    
+        <span style="color:blue"> The Inventory: </span>
+        <br /><br />
+        <table>
+            <tr>
+                <td>Product Name:</td>
+                <td>Amount:</td>
+                <td>Serial Number:</td>
+                <td>Price:</td>
+
+            </tr>
+            var x = ' ' ;
+            @foreach (Product obj in Model.products)
+                
+            {
+                <tr>
+                    <td>@obj.ProductName</td>
+                    <td>@obj.Amount</td>
+                    <td>@obj.SN</td>
+                    <td>@obj.Price</td>
+                    <td><button id="btnBuy"> Buy </button></td>
+              
+                </tr>
+            }
+
+        </table>
+        
+      <script language="javascript">
+          function showClient() {
+              $("button:#btnBuy").click(function ()
+              {
+                  $('#msg').html("");
+                  $('input:textbox').val("");
+              })
+          };
+    </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+﻿@model webPorjectCS.Models.Product
+@using webPorjectCS.Models;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View</title>
+</head>
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+<body>
+    <div> 
+        <br /><br />
+        <span style="color:blue">Delete Product: </span>
+        <br /><br />
+        @using (Html.BeginForm("DeleteProduct", "Product", FormMethod.Post))
+        {
+            
+            <i>Enter Serial Number  </i><div style="color:red">@Html.TextBoxFor(m => m.SN) @Html.ValidationMessageFor(x => x.SN)</div>
+            <br /><br />
+            <a href="/Product/DeleteProduct"> <button>Delete Product</button></a>
+                <br />
+                @TempData["good"]
+                <br />
+                @TempData["error"]
+                <br />
+        }
+
+        <form action="Menu" method="post">
+                     <a href="Product/Menu"> <button>Go back</button></a>
+        </form> 
+</div>
+</body>
+</html>

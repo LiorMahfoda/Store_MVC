@@ -1,0 +1,88 @@
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\roslyn\csc.exe
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\roslyn\System.Collections.Immutable.dll
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\roslyn\vbc.exe
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\roslyn\VBCSCompiler.exe
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\roslyn\VBCSCompiler.exe.config
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\webPorjectCS.dll.config
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\webPorjectCS.dll
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\webPorjectCS.pdb
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\Antlr3.Runtime.dll
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\Microsoft.Web.Infrastructure.dll
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\Newtonsoft.Json.dll
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\System.Web.Helpers.dll
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\System.Web.Mvc.dll
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\System.Web.Optimization.dll
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\System.Web.Razor.dll
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\System.Web.WebPages.Deployment.dll
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\System.Web.WebPages.dll
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\System.Web.WebPages.Razor.dll
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\WebGrease.dll
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\System.Web.Helpers.xml
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\System.Web.Mvc.xml
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\System.Web.Optimization.xml
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\System.Web.Razor.xml
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\System.Web.WebPages.xml
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\System.Web.WebPages.Deployment.xml
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\System.Web.WebPages.Razor.xml
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\Antlr3.Runtime.pdb
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\bin\Newtonsoft.Json.xml
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\obj\Debug\webPorjectCS.csprojResolveAssemblyReference.cache
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\obj\Debug\webPorjectCS.dll
+c:\users\alexs\documents\visual studio 2015\Projects\webPorjectCS\webPorjectCS\obj\Debug\webPorjectCS.pdb
+C:\Users\AlexS\Documents\Visual Studio 2015\Projects\webPorjectCS\webPorjectCS\bin\EntityFramework.dll
+C:\Users\AlexS\Documents\Visual Studio 2015\Projects\webPorjectCS\webPorjectCS\bin\EntityFramework.SqlServer.dll
+C:\Users\AlexS\Documents\Visual Studio 2015\Projects\webPorjectCS\webPorjectCS\bin\EntityFramework.xml
+C:\Users\AlexS\Documents\Visual Studio 2015\Projects\webPorjectCS\webPorjectCS\bin\EntityFramework.SqlServer.xml
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\roslyn\csc.exe
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\roslyn\vbc.exe
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\roslyn\VBCSCompiler.exe
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\webPorjectCS.dll.config
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\webPorjectCS.dll
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\webPorjectCS.pdb
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\Antlr3.Runtime.dll
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\EntityFramework.dll
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\EntityFramework.SqlServer.dll
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\Newtonsoft.Json.dll
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\System.Web.Helpers.dll
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\System.Web.Mvc.dll
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\System.Web.Optimization.dll
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\System.Web.Razor.dll
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\System.Web.WebPages.dll
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\WebGrease.dll
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\EntityFramework.xml
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\EntityFramework.SqlServer.xml
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\System.Web.Helpers.xml
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\System.Web.Mvc.xml
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\System.Web.Optimization.xml
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\System.Web.Razor.xml
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\System.Web.WebPages.xml
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\Antlr3.Runtime.pdb
+C:\Users\Lior\Desktop\MVC\webPorjectCS\bin\Newtonsoft.Json.xml
+C:\Users\Lior\Desktop\MVC\webPorjectCS\obj\Debug\webPorjectCS.dll
+C:\Users\Lior\Desktop\MVC\webPorjectCS\obj\Debug\webPorjectCS.pdb
+C:\Users\Lior\Desktop\MVC\webPorjectCS\obj\Debug\webPorjectCS.csprojResolveAssemblyReference.cache
